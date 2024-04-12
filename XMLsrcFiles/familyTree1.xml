@@ -1,0 +1,40 @@
+<familyTree>
+    <person id="1">
+        <name>John Smith</name>
+        <gender>Male</gender>
+        <birthDate>1960-06-15</birthDate>
+        <spouse>
+            <person id="2">
+                <name>Mary Johnson</name>
+                <gender>Female</gender>
+                <birthDate>1962-08-20</birthDate>
+            </person>
+        </spouse>
+        <children>
+            <person id="3">
+                <name>Emily Smith</name>
+                <gender>Female</gender>
+                <birthDate>1985-03-10</birthDate>
+                <spouse>
+                    <person id="4">
+                        <name>Michael Brown</name>
+                        <gender>Male</gender>
+                        <birthDate>1983-11-27</birthDate>
+                    </person>
+                </spouse>
+                <children>
+                    <person id="5">
+                        <name>James Brown</name>
+                        <gender>Male</gender>
+                        <birthDate>2010-05-12</birthDate>
+                    </person>
+                </children>
+            </person>
+            <person id="6">
+                <name>David Smith</name>
+                <gender>Male</gender>
+                <birthDate>1988-09-02</birthDate>
+            </person>
+        </children>
+    </person>
+</familyTree>
